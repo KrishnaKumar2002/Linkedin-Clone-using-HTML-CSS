@@ -10,7 +10,6 @@ body{
     align-items:center;
 }
 
-
 .img_left img{
     object-fit: contain;
     height: 40px;
@@ -36,7 +35,6 @@ body{
 .header_left{
     display: flex;
     flex-direction: row;
-    /*cell-spacing:5px;*/
 }
 
 .header_right{
@@ -342,8 +340,6 @@ display: flex;
     display: flex;
     justify-content: space-evenly;
 }
-
-
 
 .inputOption{
     display: flex;
