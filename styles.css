@@ -16,18 +16,26 @@ body{
 @media screen and (min-width:0px) and (max-width:576px) {
 
     .sidebar{
-        top: 80px;
-        display: flex;
-        flex: 1.0;
-        flex-flow:row !important;
+        display: flex !important;
+        /*flex-flow:column !important;*/
         border-radius: 10px;
         text-align: center;
-        height:fit-content;
-        width: max-content;
+        width: 100%;
     }
 
+    .feed{
+        display: flex !important;
+        flex-flow: column !important;
+    }
+
+    .widgets{
+        display: flex !important;
+        flex-flow: column !important;
+    }
+
+
     .body_main{
-        flex-flow: row !important;
+        flex-flow: column !important;
         display: flex !important;
     }
 
@@ -405,7 +413,7 @@ display: flex;
 }
 
 .feed{
-    flex: 0.5;/*0.6*/
+    flex: 0.5;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 20px;
@@ -452,10 +460,10 @@ display: flex;
 .inputOption{
     display: flex;
     align-items: center;
-    margin-top: 5px;/*10px*/
-    margin-bottom: 0px;/*remove*/
+    margin-top: 5px;
+    margin-bottom: 0px;
     color: gray;
-    padding: 0px;/*10px*/
+    padding: 0px;
     cursor: pointer;
 }
 
