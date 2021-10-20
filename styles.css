@@ -28,45 +28,51 @@ body{
 
     .body_main{
         flex-flow: row !important;
-        display: flex;
+        display: flex !important;
     }
 
     .headerOption h3
     {
-        display: none;
+        display: none !important;
     }
     
     .header{
-        height: 25px important;
+        height: 32px !important;
     }
 
     .header_search input{
-        display: none;
+        display: none !important;
     }
 
     .headerOption i{
-        align-items: center;
+        align-items: center !important;
     }
 
     .headerOption h4{
-        font-size: 7px important;
+        font-size: 10px !important;
         
     }
 
     .img_left img{
         height: 20px;
         width: 20px;
+        align-items: center !important;
     }
     
     .header_search i{
         height: 10px;
         width: 10px;
-        align-items: center;
+        align-items: center !important;
+        padding: 0 !important;
+        margin-top:0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom:0px !important;
     }
    
     .header_search input{
-        /*height: 20px;
-        width: 20px;*/
+        height: 15px !important;
+        width: 15px !important;
         display:none;
     }
 
