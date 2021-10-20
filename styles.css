@@ -18,6 +18,7 @@ body{
     .sidebar{
         position: unset !important;
         display: flex !important;
+        height: min-content !important;
         margin-left: 5%;
         border-radius: 10px;
         text-align: center;
@@ -25,6 +26,7 @@ body{
     }
 
     .sidebar_bottom{
+        /*height: min-content !important;*/
         display:none !important;
     }
 
@@ -92,20 +94,205 @@ body{
 }
 
 @media screen and (min-width:577px) and (max-width:768px){
+
+
+
+    .sidebar{
+        position: unset !important;
+        display: flex !important;
+        height: min-content !important;
+        margin-left: 10%;
+        border-radius: 10px;
+        text-align: center !important;
+        width: 80%;
+    }
+
+    .sidebar_bottom{
+        /*height: min-content !important;*/
+        display:none !important;
+    }
+
+    .feed{
+        display: flex !important;
+        flex-flow: column !important;
+        margin-left: 10% !important;
+        width: 80%;
+        
+    }
+
+    .widgets{
+        display: flex !important;
+        flex-flow: column !important;
+        margin-left: 10% !important;
+        width: 80%;
+    }
+
+
+    .body_main{
+        flex-flow: column !important;
+        display: flex !important;
+    }
+
+    .headerOption h3
+    {
+        display: none !important;
+    }
     
+    .header{
+        height: 32px !important;
+    }
+
+    .header_search input{
+        display: none !important;
+    }
+
+    .headerOption i{
+        align-items: center !important;
+        vertical-align: middle !important;
+    }
+
+    .headerOption h4{
+        font-size: 13px !important;
+        
+    }
+
+    .img_left img{
+        height: 40px;
+        width: 40px;
+        align-items: center !important;
+    }
+    
+    .header_search i{
+        height: 15px;
+        width: 15px;
+        align-items: center !important;
+        padding: 0 !important;
+        margin-top:0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom:0px !important;
+    }
+   
+    .header_search input{
+        height: 15px !important;
+        width: 15px !important;
+        display:none;
+    }
+
 
 }
 
 @media screen and (min-width:769px) and (max-width:992px){
 
+
+    .sidebar{
+        position: sticky !important;
+        display: flex !important;
+        height: min-content !important;
+        /*margin-left: 5%;*/
+        border-radius: 10px;
+        text-align: center;
+        flex-flow: column !important;
+        flex:0.22 !important;
+        width: 17%;
+        /*width: 90%;*/
+    }
+
+    .sidebar_bottom{
+        /*display:none !important;*/
+    }
+
+    .feed{
+        display: flex !important;
+        flex-flow: column !important;
+        flex:0.8 !important;
+        /*
+        width: 100% !important;
+        */
+        justify-content:left !important;
+    }
+
+    .widgets{
+        display: flex !important;
+        flex-flow: column !important;
+        /*
+        width: 100% !important;
+        */
+        flex:0. !important;
+        justify-content: left !important;
+    }
+
+
+    .body_main{
+        flex-flow: row !important;
+        display: flex !important;
+    
+    }
+
+    .headerOption h3
+    {
+        display: none !important;
+    }
+    
+    .header{
+        height: 32px !important;
+    }
+
+    .header_search input{
+        display: none !important;
+    }
+
+    .headerOption i{
+        align-items: center !important;
+        vertical-align: middle !important;
+    }
+
+    .headerOption h4{
+        font-size: 13px !important;
+        
+    }
+
+    .img_left img{
+        height: 40px;
+        width: 40px;
+        align-items: center !important;
+    }
+    
+    .header_search i{
+        height: 15px;
+        width: 15px;
+        align-items: center !important;
+        padding: 0 !important;
+        margin-top:0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom:0px !important;
+    }
+   
+    .header_search input{
+        height: 15px !important;
+        width: 15px !important;
+        display:none;
+    }
+
+
+
+
 }
 
 @media screen and (min-width:993px) and (max-width:1200px){
+
+    .feed{
+        flex:0.65 !important;
+    }
 
 }
 
 @media screen and (min-width:1201px) and (max-width:20000px){
 
+    .feed{
+        flex:0.7 !important;
+    }
 
 }
 
