@@ -15,11 +15,74 @@ body{
 
 @media screen and (min-width:0px) and (max-width:576px) {
 
+
+
+
+/*
+<!--pic noufal-->
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+  background-attachment: fixed;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: minmax(150px, 440px);
+  font-family: "Montserrat", sans-serif;
+}
+
+#wrapper {
+  padding: 20px;
+  height: 200px;
+}
+
+#title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+details {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 15px;
+  margin-left: 18px;
+}
+
+
+
+
+
+<!--pic noufal-->
+*/
+
+
     .sidebar{
         position: unset !important;
         display: flex !important;
         height: min-content !important;
         margin-left: 5%;
+
+        margin-top: 5px !important;
+
         border-radius: 10px;
         text-align: center;
         width: 90%;
